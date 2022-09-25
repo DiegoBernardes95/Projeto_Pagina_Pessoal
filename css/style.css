@@ -1,5 +1,5 @@
 body{
-    background-image: url(../imagens/background-imagem.jpg);
+    background-image: url(../imagens/papel-de-parede.jpg);
 }
 /* Aqui foi feito o cabeçalho, através de uma div container. A imagem de fundo foi inserida separadamente - não como background-image - para que pudesse receber as mesmas medidas do container e o preencher sem que saísse distorcida ou cortada. O título recebeu uma position absolute para que pudesse ser movimentado no container sobre a imagem e posicionado no centro.*/
 .container{
@@ -26,14 +26,14 @@ body{
     height: 340px;
 }
 .resumo{
-    background-image: url(../imagens/background-texto.png);
+    background-image: url(../imagens/card.png);
     width: 600px;
     height: 340px;
     overflow: auto;
 }
 .resumo p{
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 40px;
+    margin-right: 50px;
     font-size: 110%;
     font-family: Tahoma;
 }
@@ -50,7 +50,7 @@ body{
     margin-top: 40px;
 }
 .p{
-    background-image: url(../imagens/background-texto.png);
+    background-image: url(../imagens/texto.png);
     width: 698px;
     height: 700px;
     overflow: auto;
@@ -88,7 +88,7 @@ a:hover{
     margin-top: 40px;
 }
 .formulario{
-    background-image: url(../imagens/background-texto.png);
+    background-image: url(../imagens/texto.png);
     display: flex;
     flex-direction: column;
     align-items: center;
