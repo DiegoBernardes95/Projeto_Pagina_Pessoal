@@ -22,6 +22,7 @@ body{
 /*Aqui foi feita a barra de links para as outras páginas do projeto com display flex para determinar um espaçamento entre eles. O links foram estilizados para combinar com o estilo do projeto.*/
 .barra{
     display: flex;
+    border-radius: 40px;
     justify-content: space-evenly;
     margin-bottom: 15px;  
 }
@@ -87,7 +88,7 @@ a:hover{
     height: 700px;
     margin-top: 40px;
 }
-.p{
+.paragrafo{
     background-image: url(../imagens/texto.png);
     width: 698px;
     height: 700px;
