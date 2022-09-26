@@ -22,7 +22,6 @@ body{
 /*Aqui foi feita a barra de links para as outras páginas do projeto com display flex para determinar um espaçamento entre eles. O links foram estilizados para combinar com o estilo do projeto.*/
 .barra{
     display: flex;
-    border-radius: 40px;
     justify-content: space-evenly;
     margin-bottom: 15px;  
 }
@@ -39,9 +38,10 @@ body{
     background-color: white;
     color: black;
     border: 1px solid;
-    border-radius: 30px;
-    padding: 5px;
+    border-radius: 40px;
+    padding: 10px;
     text-decoration: none;
+    font-family: 'Tahoma';
 }
 a:hover{
     background: yellow;
@@ -77,8 +77,8 @@ a:hover{
 .container1 img{
     max-width: 300px;
     height: 302px;
-    border: 5px solid white;
-    border-radius: 70px;
+    border: 20px solid whitesmoke;
+    border-radius: 170px;
 }
 /*Aqui foi feito a parte para os textos de apresentação e hobbies & interesses. Com um container que recebeu medidas para se tornar um flex e centralizar o conteúdo da div com os textos (p), que recebeu uma imagem de background de folha de caderno.*/
 .container2{
